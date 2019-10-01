@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: abhik050593/mymvc # #{ImageTag}# #v10 #v2.#{Build.BuildId}#
+        image: abhik050593/mymvc:1
         ports:
         - containerPort: 80
         resources:
